@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="product-colors.css" />
+
+    <style>
+      /* only for prez, not for speaker view */
+      @media screen and (min-width: 1500px) {
+        .slides {
+          width: 88% !important;
+        }
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        text-transform: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <section>
+            <h1>Frontend <span class="efficiency">Efficiency</span></h1>
+            <h3 class="fragment">
+              A streamlined development (& deployment) process
+            </h3>
+            <h2 class="fragment">Jan Greger Hemb</h2>
+          </section>
+          <section>
+            <h2>CI/CD DevOps</h2>
+            <h2>AI-powered development</h2>
+            <h2>Lowest possible turnaround time</h2>
+            <h2>Modern agile and kanban</h2>
+          </section>
+          <section>
+            <h1>Controversial opinions</h1>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>CI/CD DevOps</h1>
+          </section>
+          <section data-auto-animate>
+            <ol>
+              <li class="">
+                Continuous Integration (<span class="devops">CI</span>)
+              </li>
+              <li class="fragment">
+                Continuous Delivery (<span class="devops">CD</span>)
+              </li>
+              <li class="fragment">Microservices</li>
+              <li class="fragment">
+                Infrastructure as Code (<span class="devops">IaC</span>)
+              </li>
+              <li class="fragment">Monitoring and Logging</li>
+              <li class="fragment">Communication and Collaboration</li>
+              <li class="fragment">Continuous feedback</li>
+            </ol>
+          </section>
+          <section data-auto-animate>
+            <ol>
+              <li>Continuous Integration (<span class="devops">CI</span>)</li>
+              <li>Continuous Delivery (<span class="devops">CD</span>)</li>
+            </ol>
+          </section>
+          <section>
+            <h1>Continuous Integration</h1>
+            <h2>Trunk based development</h2>
+            <h2>Always deployable</h2>
+            <h2>Rapid merging</h2>
+            <h2>Automated testing</h2>
+            <h2>Automated builds</h2>
+          </section>
+          <section
+            data-background-iframe="https://trunkbaseddevelopment.com/"
+            data-background-interactive
+          ></section>
+          <section>
+            <h1>Continuous Delivery</h1>
+            <h2>Automated deployment</h2>
+          </section>
+          <section>
+            <h2>Test, stage and prod</h2>
+            <h2>Autodeploy to test</h2>
+            <h2>Manual deploy to stage</h2>
+            <h2>Manual deploy to prod from stage</h2>
+            <h2>AOF</h2>
+          </section>
+          <section>
+            <img src="media/deploy flow.png" />
+          </section>
+          <section>
+            <h1>Not great DevOps</h1>
+            <h2 class="fragment">Master should be production</h2>
+            <h2 class="fragment">Why?</h2>
+            <h2 class="fragment">Lowest difference between dev and prod</h2>
+            <h2 class="fragment">How do do that?</h2>
+          </section>
+          <section data-background="media/vercel.png"></section>
+          <section>
+            <h1>Vercel</h1>
+            <h2 class="framgent">Auto-deploy on master merge</h2>
+            <h2 class="framgent">Deploy previews on PR</h2>
+            <h2 class="framgent">No stage</h2>
+          </section>
+          <section data-background="media/vercel preview1.png"></section>
+          <section>
+            <a
+              href="https://curious-programming-git-test-jgh153.vercel.app/"
+              target="_blank"
+              >https://curious-programming-git-test-jgh153.vercel.app/</a
+            >
+          </section>
+          <section>
+            <h1>Deployment flags 🏴‍☠️</h1>
+            <h2 class="fragment">Merge before feature is ready</h2>
+            <h2 class="fragment">When do do it</h2>
+            <h2 class="fragment">A/B testing</h2>
+            <h2 class="fragment">How do do it</h2>
+            <h2 class="fragment">Remove when done</h2>
+          </section>
+          <section
+            data-background-iframe="https://turbo.build/repo"
+            data-background-interactive
+          ></section>
+          <section
+            data-background-iframe="https://turbo.build/repo/docs/core-concepts/remote-caching"
+            data-background-interactive
+          ></section>
+          <section
+            data-background-iframe="https://turbo.build/pack"
+            data-background-interactive
+          ></section>
+        </section>
+        <section>
+          <section>
+            <h1>AI-powered development</h1>
+            <h2 class="fragment">GitHub co-pilot</h2>
+            <h2 class="fragment">Open AI - ChatGPT</h2>
+            <h2 class="fragment">GRAMMARLY</h2>
+            <h2 class="fragment">SwiftKey</h2>
+          </section>
+          <section data-background="media/copilot example.png"></section>
+          <section data-background="media/copilot apps.png"></section>
+
+          <section>
+            <h1>GitHub co-pilot</h1>
+            <h2 class="fragment">GPT-3</h2>
+            <h2 class="fragment">Code solutions</h2>
+            <h2 class="fragment">Autocomplete</h2>
+            <h2 class="fragment">Short snippets</h2>
+            <h2 class="fragment">Excel at simple code</h2>
+          </section>
+          <section>
+            <h2>GPT-3 is licensed exclusively to Microsoft</h2>
+            <h2 class="fragment">54 million public GitHub repositories</h2>
+            <h2 class="fragment">159 gigabytes of Python</h2>
+            <h2 class="fragment">Insecure code</h2>
+          </section>
+          <section>
+            <h1>Helps me a lot</h1>
+            <h2 class="fragment">Best for one liners</h2>
+            <h2 class="fragment">Always have to check</h2>
+            <h2 class="fragment">Not a replacement</h2>
+            <h2 class="fragment">Finish a thought</h2>
+          </section>
+          <section>
+            <img src="media/aipowerd.png" />
+          </section>
+          <section>
+            <img src="media/aipowerd2.png" />
+          </section>
+          <section data-background="media/clippy.png"></section>
+          <section>
+            <h1>
+              <a href="https://chat.openai.com/chat" target="_blank">ChatGPT</a>
+            </h1>
+            <h2 class="fragment">Helped with research</h2>
+            <h2 class="fragment">Discussing code solutions</h2>
+            <h2 class="fragment">Confidently wrong</h2>
+          </section>
+          <section>
+            <img src="media/ai Bureaucracy.png" />
+          </section>
+          <section>
+            <img src="media/copilot-vsgtp.png" />
+          </section>
+          <section>
+            <h1>GPT-3.5</h1>
+            <h2>Jailbreaks</h2>
+            
+            TODO
+          </section>
+          <section>
+            <h1>Co-pilot vs ChatGPT</h1>
+          </section>
+          <section>
+            <a href="https://play.aidungeon.io/main/home" target="_blank"
+              >https://play.aidungeon.io/main/home</a
+            >
+          </section>
+          <section>The rest</section>
+        </section>
+        <section>
+          <section><h1>Lowest possible turnaround time</h1></section>
+          <section>Example of slow process (problem)</section>
+          <section>Fast local development</section>
+          <section>Fast CI/CD</section>
+          <section>
+            <h1>Reduce red tape (bureaucracy)</h1>
+            <blockquote>
+              The reason we have bureaucracy is to average out quality, so both
+              good and bad developers make the same mediocre level of quality
+            </blockquote>
+            <h2>We change by adding processes</h2>
+          </section>
+          <section>
+            <h1>Do you really need?</h1>
+            <ul>
+              <li>Smart commits</li>
+              <li>3 people approving every deploy to prod</li>
+              <li>Approval of architecture before you try something new</li>
+              <li>Send emails rather than slack messages</li>
+              <li>Pull requests</li>
+              <li>Unit tests instead of integration tests</li>
+              <li>Conventional changelog</li>
+            </ul>
+            <h2>We forget about speed</h2>
+          </section>
+          <section>
+            <h1>Solution?</h1>
+            <h2>Autonomous teams with self control</h2>
+            <h1>Culture <span class="error">Inertia</span></h1>
+            <h1 class="fragment">
+              <span class="error">Resistance</span> to change
+            </h1>
+          </section>
+          <section>
+            <h1>Code collaboration</h1>
+          </section>
+          <section>
+            <h1>Modern PR process is broken</h1>
+            <h2>No direct communication</h2>
+            <h2>Approval fishing</h2>
+            <h2>Dont understand code</h2>
+            <h2>No place for discussion</h2>
+            <h2>Stuck for weeks</h2>
+            <h2>Dont care</h2>
+          </section>
+          <section>
+            <h1>How to fix it?</h1>
+            <h2>Pair programming</h2>
+            <h2>Live code review</h2>
+            <h2>Work with devs you trust</h2>
+            <h2>Learn for each other</h2>
+            <h2>Pull requests is not the only solution</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Modern agile and kanban</h1>
+            <h2>transcending scrum</h2>
+          </section>
+          <section>
+            <h1>Waterfall</h1>
+            <h1>Why is Scrum bad?</h1>
+            <h2>Sprint turnaround</h2>
+            <h2>Infrequent deploys</h2>
+            <h2>Broken promises</h2>
+            <h2>Quality falls as speed increases</h2>
+          </section>
+          <section>
+            <h1>Kanban</h1>
+            <h2>Continuous sprint</h2>
+            <h2>Continuous delivery</h2>
+            <h2>Continuous improvement</h2>
+            <h2>Continuous learning</h2>
+            <h2>Pick from top</h2>
+          </section>
+          <section>
+            <h1>Refining tasks</h1>
+            <h2>Enter planning with many questions</h2>
+            <h2>Land design and task before</h2>
+            <h2>Several rounds of refinement</h2>
+            <h2>Sprint planning is not a task discussion meeting</h2>
+          </section>
+          <section>
+            <h1>No estimations</h1>
+            <h2>Guessing</h2>
+            <h2>False sense of security</h2>
+            <h2>We don't make cars</h2>
+            <h2>Even story points bad</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Summary</h1>
+            <h2>CI/CD DevOps</h2>
+            <h2>AI-powered development</h2>
+            <h2>Lowest possible turnaround time</h2>
+            <h2>Modern agile and kanban</h2>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        history: true,
+        controls: false,
+        progress: false,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
