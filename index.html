@@ -23,6 +23,9 @@
         .slides {
           width: 88% !important;
         }
+        .reveal pre {
+          width: 60% !important;
+        }
       }
       h1,
       h2,
@@ -46,9 +49,9 @@
           </section>
           <section>
             <h2>CI/CD DevOps</h2>
-            <h2>AI-powered development</h2>
-            <h2>Lowest possible turnaround time</h2>
-            <h2>Modern agile and kanban</h2>
+            <h2 class="fragment">AI-powered development</h2>
+            <h2 class="fragment">Lowest possible turnaround time</h2>
+            <h2 class="fragment">Modern agile and kanban</h2>
           </section>
           <section>
             <h1>Controversial opinions</h1>
@@ -83,11 +86,11 @@
           </section>
           <section>
             <h1>Continuous Integration</h1>
-            <h2>Trunk based development</h2>
-            <h2>Always deployable</h2>
-            <h2>Rapid merging</h2>
-            <h2>Automated testing</h2>
-            <h2>Automated builds</h2>
+            <h2 class="fragment">Trunk based development</h2>
+            <h2 class="fragment">Always deployable</h2>
+            <h2 class="fragment">Rapid merging</h2>
+            <h2 class="fragment">Automated testing</h2>
+            <h2 class="fragment">Automated builds</h2>
           </section>
           <section
             data-background-iframe="https://trunkbaseddevelopment.com/"
@@ -95,20 +98,20 @@
           ></section>
           <section>
             <h1>Continuous Delivery</h1>
-            <h2>Automated deployment</h2>
+            <h2 class="fragment">Automated deployment</h2>
           </section>
           <section>
             <h2>Test, stage and prod</h2>
-            <h2>Autodeploy to test</h2>
-            <h2>Manual deploy to stage</h2>
-            <h2>Manual deploy to prod from stage</h2>
-            <h2>AOF</h2>
+            <h2 class="fragment">Autodeploy to test</h2>
+            <h2 class="fragment">Manual deploy to stage</h2>
+            <h2 class="fragment">Manual deploy to prod from stage</h2>
+            <h2 class="fragment">AOF</h2>
           </section>
           <section>
             <img src="media/deploy flow.png" />
           </section>
           <section>
-            <h1>Not great DevOps</h1>
+            <h1>Not great <span class="devops">DevOps</span></h1>
             <h2 class="fragment">Master should be production</h2>
             <h2 class="fragment">Why?</h2>
             <h2 class="fragment">Lowest difference between dev and prod</h2>
@@ -116,10 +119,12 @@
           </section>
           <section data-background="media/vercel.png"></section>
           <section>
-            <h1>Vercel</h1>
-            <h2 class="framgent">Auto-deploy on master merge</h2>
-            <h2 class="framgent">Deploy previews on PR</h2>
-            <h2 class="framgent">No stage</h2>
+            <h1>
+              <a href="https://vercel.com/jgh153" target="_blank">Vercel</a>
+            </h1>
+            <h2 class="fragment">Auto-deploy on merge to master</h2>
+            <h2 class="fragment">Deploy previews on PR</h2>
+            <h2 class="fragment">No stage</h2>
           </section>
           <section data-background="media/vercel preview1.png"></section>
           <section>
@@ -130,7 +135,14 @@
             >
           </section>
           <section>
-            <h1>Deployment flags 🏴‍☠️</h1>
+            <h1>Feature flags 🏴‍☠️</h1>
+            <pre
+              class="fagment"
+            ><code class="typescript" data-trim data-line-numbers>
+if(featureFlags["new-cool-feature"] == true){
+  renderNewCoolFeature();
+} 
+						</code></pre>
             <h2 class="fragment">Merge before feature is ready</h2>
             <h2 class="fragment">When do do it</h2>
             <h2 class="fragment">A/B testing</h2>
@@ -206,7 +218,7 @@
           <section>
             <h1>GPT-3.5</h1>
             <h2>Jailbreaks</h2>
-            
+
             TODO
           </section>
           <section>
