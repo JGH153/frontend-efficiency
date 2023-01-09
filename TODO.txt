@@ -1,0 +1,7 @@
+More on Continuous Integration
+
+more on Code collaboration
+
+
+Continuous delivery vs Continuous deployment
+delivery is deployable (but still manual) deployment is automated

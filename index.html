@@ -34,6 +34,11 @@
       h5 {
         text-transform: none !important;
       }
+
+      .lower {
+        position: relative;
+        top: 2rem;
+      }
     </style>
   </head>
   <body>
@@ -48,7 +53,7 @@
             <h2 class="fragment">Jan Greger Hemb</h2>
           </section>
           <section>
-            <h2>CI/CD DevOps</h2>
+            <h2>CI/CD <span class="devops">DevOps</span></h2>
             <h2 class="fragment">AI-powered development</h2>
             <h2 class="fragment">Lowest possible turnaround time</h2>
             <h2 class="fragment">Modern agile and kanban</h2>
@@ -59,7 +64,7 @@
         </section>
         <section>
           <section>
-            <h1>CI/CD DevOps</h1>
+            <h1>CI/CD <span class="devops">DevOps</span></h1>
           </section>
           <section data-auto-animate>
             <ol>
@@ -85,10 +90,12 @@
             </ol>
           </section>
           <section>
-            <h1>Continuous Integration</h1>
+            <h1>Continuous <span class="devops">Integration</span></h1>
             <h2 class="fragment">Trunk based development</h2>
             <h2 class="fragment">Always deployable</h2>
-            <h2 class="fragment">Rapid merging</h2>
+            <h2 class="fragment">
+              <span class="efficiency">Rapid</span> merging
+            </h2>
             <h2 class="fragment">Automated testing</h2>
             <!-- <h2 class="fragment">Automated builds</h2> -->
           </section>
@@ -96,9 +103,14 @@
             data-background-iframe="https://trunkbaseddevelopment.com/"
             data-background-interactive
           ></section>
+
           <section>
-            <h1>Continuous Delivery</h1>
-            <h2 class="fragment">Automated deployment</h2>
+            <h1>Continuous <span class="devops">Delivery</span></h1>
+            <h2 class="fragment">Automated deployment, mostly</h2>
+            <h1 class="fragment">
+              Continuous <span class="devops">Deployment</span>
+            </h1>
+            <h2 class="fragment">Fully automated deployment</h2>
           </section>
           <section>
             <h2>Test, stage and prod</h2>
@@ -114,14 +126,24 @@
           <section data-auto-animate>
             <h1>Not great <span class="devops">DevOps</span></h1>
             <h2 class="fragment">Master should be production</h2>
-            <h2 class="fragment">Why?</h2>
-            <h2 class="fragment">Lowest difference between dev and prod</h2>
+            <h2 class="fragment error">Why?</h2>
+            <h2 class="fragment">
+              <span class="efficiency">Lowest</span> difference between dev and
+              prod
+            </h2>
             <!-- <h2 class="fragment">How do do that?</h2> -->
           </section>
           <section data-auto-animate>
-            <h2 class="">Lowest difference between dev and prod</h2>
-            <h2 class="fragment">Less time to bugfix</h2>
-            <h2 class="fragment">Less time to feature feedback</h2>
+            <h2 class="">
+              <span class="efficiency">Lowest</span> difference between dev and
+              prod
+            </h2>
+            <h2 class="fragment">
+              Less time to <span class="bug">bugfix</span>
+            </h2>
+            <h2 class="fragment">
+              Less time to <span class="feature">feature</span> feedback
+            </h2>
             <h2 class="fragment">Less merge conflicts</h2>
             <h2 class="fragment">No more fix in production</h2>
             <h2 class="fragment">How do do that?</h2>
@@ -143,22 +165,36 @@
               >https://curious-programming-git-test-jgh153.vercel.app/</a
             >
           </section>
-          <section>
-            <h1>Feature flags 🏴‍☠️</h1>
+          <section data-auto-animate>
+            <h1><span class="feature">Feature</span> flags 🏴‍☠️</h1>
             <pre
               class="fragment"
-            ><code class="typescript" data-trim data-line-numbers>
+            ><code class="typescript" data-trim data-line-numbers="1-3|2">
 if(featureFlags["new-cool-feature"] === true){
   renderNewCoolFeature();
 } 
 						</code></pre>
-            <h2 class="fragment">Merge before feature is ready</h2>
+            <h2 class="fragment">
+              Merge before <span class="feature">feature</span> is ready
+            </h2>
             <!-- <h2 class="fragment">When do do it</h2> -->
             <h2 class="fragment">A/B testing</h2>
             <!-- <h2 class="fragment">How do do it</h2> -->
             <h2 class="fragment">Remove when done</h2>
-            <h2 class="fragment">Feature flag interference</h2>
+            <h2 class="fragment">
+              <span class="feature">Feature</span> flag interference
+            </h2>
             <!-- <h2 class="fragment">Each flag increases diff</h2> -->
+          </section>
+          <section data-auto-animate>
+            <h2 class="">
+              <span class="feature">Feature</span> flag interference
+            </h2>
+            <h2 class="fragment">Depend on each other</h2>
+            <h2 class="fragment">Aim to remove all flags in 3 months</h2>
+            <h2 class="fragment">
+              Remove when <span class="feature">feature</span> done
+            </h2>
           </section>
           <section
             data-background-iframe="https://turbo.build/repo"
@@ -175,22 +211,26 @@ if(featureFlags["new-cool-feature"] === true){
         </section>
         <section>
           <section>
-            <h1>AI-powered development</h1>
-            <h2 class="fragment">GitHub co-pilot</h2>
-            <h2 class="fragment">Open AI - ChatGPT</h2>
-            <h2 class="fragment">GRAMMARLY</h2>
+            <h1><span class="ai">AI-powered</span> development</h1>
+            <h2 class="fragment">GitHub co-pilot ✈️</h2>
+            <h2 class="fragment">Open AI - ChatGPT 💬</h2>
+            <h2 class="fragment grammarly">GRAMMARLY ✏️</h2>
             <!-- <h2 class="fragment">SwiftKey</h2> -->
           </section>
           <section data-background="media/copilot example.png"></section>
           <section data-background="media/copilot apps.png"></section>
 
-          <section>
+          <section data-auto-animate>
             <h1>GitHub co-pilot</h1>
             <h2 class="fragment">GPT-3</h2>
             <h2 class="fragment">Code solutions</h2>
             <h2 class="fragment">Autocomplete</h2>
             <h2 class="fragment">Short snippets</h2>
             <h2 class="fragment">Excel at simple code</h2>
+          </section>
+          <section data-auto-animate>
+            <h2 class="">Excel at simple code</h2>
+            <h2 class="fragment">More examples</h2>
           </section>
           <section>
             <h2>GPT-3 is licensed exclusively to Microsoft</h2>
@@ -239,10 +279,27 @@ if(featureFlags["new-cool-feature"] === true){
             <img src="media/copilot-vsgtp.png" />
           </section>
           <section>
+            <img src="media/aicolor.png" />
+          </section>
+          <section>
+            <img src="https://i.redd.it/kvm35mddcpaa1.png" />
+          </section>
+          <section>
+            <img src="https://i.redd.it/6r6mg9nd537a1.png" />
+          </section>
+          <section>
+            <img class="r-stretch" src="https://i.redd.it/zk5umky27p9a1.png" />
+          </section>
+          <section>
             <h1>GPT-3.5</h1>
-            <h2 class="fragment">Jailbreaks</h2>
             <h2 class="fragment">Discuss code</h2>
             <h2 class="fragment">Discuss pull requests</h2>
+            <h2 class="fragment">Jailbreaks</h2>
+          </section>
+          <section>
+            <img
+              src="https://pbs.twimg.com/media/FjKWvNyXgAA32nd?format=jpg&name=large"
+            />
           </section>
           <section>
             <h1>Co-pilot vs ChatGPT</h1>
@@ -257,6 +314,10 @@ if(featureFlags["new-cool-feature"] === true){
                 <tr class="fragment">
                   <td>GPT-3.0</td>
                   <td>GPT-3.5</td>
+                </tr>
+                <tr class="fragment">
+                  <td>For developers</td>
+                  <td>General use</td>
                 </tr>
                 <tr class="fragment">
                   <td>Code completion</td>
@@ -281,7 +342,9 @@ if(featureFlags["new-cool-feature"] === true){
           <section data-background="media/grammarly.png"></section>
         </section>
         <section>
-          <section><h2>Lowest possible turnaround time</h2></section>
+          <section>
+            <h2><span class="">Lowest</span> possible turnaround time</h2>
+          </section>
           <section data-auto-animate>
             <h2>One company develops</h2>
             <h2 class="fragment">One company deploys</h2>
@@ -335,6 +398,10 @@ if(featureFlags["new-cool-feature"] === true){
             <h1 class="fragment">
               <span class="error">Resistance</span> to change
             </h1>
+            <blockquote class="fragment">
+              People rather keep a broken system around rather than face
+              something new, better, but unknown
+            </blockquote>
           </section>
           <section>
             <h1>Code collaboration</h1>
@@ -357,6 +424,7 @@ if(featureFlags["new-cool-feature"] === true){
             <h2 class="fragment">Learn for each other</h2>
             <h2 class="fragment">Pull requests is not the only solution</h2>
           </section>
+          <section data-background="media/pairprog.jpg"></section>
         </section>
         <section>
           <section>
@@ -401,7 +469,7 @@ if(featureFlags["new-cool-feature"] === true){
           <section>
             <h1 class="kanban">Kanban</h1>
             <h2 class="fragment">Continuous sprint</h2>
-            <h2 class="fragment">Continuous delivery</h2>
+            <h2 class="fragment">Continuous deployment</h2>
             <h2 class="fragment">Continuous improvement</h2>
             <h2 class="fragment">Continuous learning</h2>
             <h2 class="fragment">Continuous change</h2>
@@ -423,6 +491,7 @@ if(featureFlags["new-cool-feature"] === true){
               Sprint planning is not a task discussion meeting
             </h3>
           </section>
+          <section data-background="media/noesti.png"></section>
           <section data-auto-animate>
             <h1>No estimations</h1>
             <h2 class="fragment">Guessing</h2>
@@ -441,6 +510,7 @@ if(featureFlags["new-cool-feature"] === true){
           <section>
             <h1>What to do?</h1>
             <h2 class="fragment">Most important task on top</h2>
+            <h2 class="fragment">Similar size</h2>
             <h2 class="fragment">Refine it well</h2>
             <h2 class="fragment">Land design</h2>
             <h2 class="fragment">Focus on value</h2>
@@ -452,17 +522,41 @@ if(featureFlags["new-cool-feature"] === true){
               <li class="fragment">Rough refinement</li>
               <li class="fragment">Iterate on design and refinement</li>
               <li class="fragment">Include a developer</li>
+              <li class="fragment">All agree on task and design</li>
               <li class="fragment">Ready for development</li>
             </ol>
           </section>
+          <section data-background="media/designer.jpg"></section>
           <section>
+            <h1>All projects need a designer</h1>
+            <h2 class="fragment">Even internal projects</h2>
+          </section>
+          <section data-auto-animate>
             <h1>Standup</h1>
             <h2 class="fragment">Broken</h2>
             <h2 class="fragment">Discussion meeting</h2>
-            <h2 class="fragment">Why wait until next?</h2>
+            <h2 class="fragment">No idea what you are talking about</h2>
+            <h2 class="fragment">Have a blocker until next standup</h2>
+            <h2 class="fragment">Solution</h2>
+          </section>
+          <section data-auto-animate>
+            <h2 class="">Solution</h2>
+            <h2 class="fragment">Don't wait until standup</h2>
+            <h2 class="fragment">Well refined tasks</h2>
             <h2 class="fragment">Keep it short</h2>
+            <h2 class="fragment">Create new place for discussions</h2>
+            <h2 class="fragment">Small teams</h2>
           </section>
           <section data-background="media/tennisball.jpg"></section>
+          <section
+            data-background="https://i0.wp.com/warandpeas.com/wp-content/uploads/2018/07/war-and-peas-efficiency-expert.jpg?ssl=1"
+            data-background-size="contain"
+          ></section>
+          <section>
+            <img
+              src="https://media.nature.com/lw767/magazine-assets/d41586-021-00592-0/d41586-021-00592-0_18964720.png"
+            />
+          </section>
         </section>
         <section>
           <!-- needed? -->
@@ -489,7 +583,7 @@ if(featureFlags["new-cool-feature"] === true){
         hash: true,
         history: true,
         controls: false,
-        progress: false,
+        progress: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
