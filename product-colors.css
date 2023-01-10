@@ -253,3 +253,15 @@
 .grammarly {
   color: #34ba96 !important;
 }
+.aof {
+  color: #094c51 !important;
+}
+
+.copilot {
+  background-image: linear-gradient(45deg, #73b4d6, #885de6);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
