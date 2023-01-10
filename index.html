@@ -39,6 +39,10 @@
         position: relative;
         top: 2rem;
       }
+
+      i {
+        font-style: italic;
+      }
     </style>
   </head>
   <body>
@@ -443,28 +447,39 @@ if(featureFlags["new-cool-feature"] === true){
         </section>
         <section data-background="media/pondus gram.jpg"></section>
         <section>
-          <section>
-            <h2><span class="">Lowest</span> possible turnaround time</h2>
+          <section class="">
+            <h2 class="">
+              <span class="">Lowest</span> possible
+              <span class="efficiency">turnaround</span> time
+            </h2>
           </section>
           <section data-auto-animate>
-            <h2>One company develops</h2>
-            <h2 class="fragment">One company deploys</h2>
-            <h2 class="fragment">Fast local development</h2>
+            <h2>One company <span class="efficiency">develops</span></h2>
+            <h2 class="fragment">
+              One company <span class="error">deploys</span>
+            </h2>
+            <h2 class="fragment">
+              <i class="efficiency">Fast</i> local development
+            </h2>
           </section>
           <section data-auto-animate>
-            <h2>Fast local development</h2>
-            <h2 class="fragment">Fast IDE</h2>
-            <h2 class="fragment">Fast (re-)build times</h2>
-            <h2 class="fragment">Fast tests</h2>
-            <h2 class="fragment">Fast CI/CD</h2>
+            <h2><i class="efficiency">Fast</i> local development</h2>
+            <h2 class="fragment">Fast <span class="efficiency">IDE</span></h2>
+            <h2 class="fragment">
+              Fast (re-)<span class="efficiency">build</span> times
+            </h2>
+            <h2 class="fragment">Fast <span class="efficiency">tests</span></h2>
+            <h2 class="fragment">Fast <span class="devops">CI/CD</span></h2>
           </section>
           <section>
-            <h1>Reduce red tape</h1>
+            <h1>Reduce <span class="error">red tape</span></h1>
             <blockquote class="fragment">
               The reason we have bureaucracy is to average out quality, so both
               good and bad developers make the same mediocre level of quality
             </blockquote>
-            <h2 class="fragment">We change by adding processes</h2>
+            <h2 class="fragment">
+              We change by <span class="error">adding</span> processes
+            </h2>
           </section>
           <section>
             <img
@@ -473,7 +488,7 @@ if(featureFlags["new-cool-feature"] === true){
           </section>
           <section data-background="media/adding.png"></section>
           <section>
-            <h1>Do you really need?</h1>
+            <h1>Do you <span class="error">really</span> need?</h1>
             <ul>
               <li class="fragment">Smart commits</li>
               <li class="fragment">3 people approving every deploy to prod</li>
@@ -485,7 +500,9 @@ if(featureFlags["new-cool-feature"] === true){
               <li class="fragment">Unit tests instead of integration tests</li>
               <li class="fragment">Conventional changelog</li>
             </ul>
-            <h2 class="fragment">We forget about speed</h2>
+            <h2 class="fragment">
+              We forget about <span class="efficiency">speed</span>
+            </h2>
           </section>
           <section>
             <img
@@ -494,7 +511,10 @@ if(featureFlags["new-cool-feature"] === true){
           </section>
           <section>
             <h1>Solution?</h1>
-            <h2 class="fragment">Autonomous teams with self control</h2>
+            <h2 class="fragment">
+              <span class="efficiency">Autonomous</span> teams with self
+              <span class="efficiency">control</span>
+            </h2>
             <h1 class="fragment">Culture <span class="error">Inertia</span></h1>
             <h1 class="fragment">
               <span class="error">Resistance</span> to change
@@ -509,33 +529,47 @@ if(featureFlags["new-cool-feature"] === true){
           </section>
           <section>
             <h1>Modern PR process</h1>
-            <h3 class="fragment">No direct communication</h3>
-            <h3 class="fragment">Approval fishing</h3>
+            <h3 class="fragment">
+              No <span class="error">direct</span> communication
+            </h3>
+            <h3 class="fragment">
+              Approval <span class="error">fishing</span>
+            </h3>
             <h3 class="fragment">Don't understand code</h3>
             <h3 class="fragment">No place for discussion</h3>
-            <h3 class="fragment">Stuck for weeks</h3>
-            <h2 class="fragment">Don't care</h2>
+            <h3 class="fragment">Stuck for <span class="error">weeks</span></h3>
+            <h2 class="fragment">Don't <span class="error">care</span></h2>
           </section>
           <section data-background="media/pr-broken.png"></section>
           <section>
             <h1>How to fix it?</h1>
             <h2 class="fragment">Pair programming</h2>
-            <h2 class="fragment">Live code review</h2>
-            <h2 class="fragment">Work with devs you trust</h2>
+            <h2 class="fragment">
+              <span class="efficiency">Live</span> code review
+            </h2>
+            <h2 class="fragment">
+              Work with devs you <span class="efficiency">trust</span>
+            </h2>
             <h2 class="fragment">Learn for each other</h2>
-            <h2 class="fragment">Pull requests is not the only solution</h2>
+            <h2 class="fragment">
+              Pull requests is not the
+              <span class="efficiency">only</span> solution
+            </h2>
           </section>
           <section data-background="media/pairprog.jpg"></section>
         </section>
         <section>
           <section>
-            <h1>Modern agile and <span class="kanban">kanban</span></h1>
+            <h1>
+              Modern <span class="devops">agile</span> and
+              <span class="kanban">kanban</span>
+            </h1>
             <h2 class="fragment">
               Transcending <span class="scrum">scrum</span>
             </h2>
           </section>
           <section>
-            <h1>Agile principles</h1>
+            <h1><span class="devops">Agile</span> principles</h1>
             <h4 class="fragment">
               <span class="efficiency">Individuals</span> and
               <span class="efficiency">interactions</span> over processes and
@@ -561,11 +595,17 @@ if(featureFlags["new-cool-feature"] === true){
           <section data-background="media/waterfall.jpg"></section>
           <section>
             <h1>Waterfall</h1>
-            <h2 class="fragment">Why is Scrum bad?</h2>
+            <h2 class="fragment">
+              Why is <span class="scrum">Scrum</span> bad?
+            </h2>
             <h2 class="fragment">Sprint turnaround</h2>
-            <h2 class="fragment">Infrequent deploys</h2>
-            <h2 class="fragment">Broken promises</h2>
-            <h2 class="fragment">Quality falls as speed increases</h2>
+            <h2 class="fragment">
+              <span class="error">Infrequent</span> deploys
+            </h2>
+            <h2 class="fragment"><span class="error">Broken</span> promises</h2>
+            <h2 class="fragment">
+              Quality <span class="error">falls</span> as speed increases
+            </h2>
           </section>
           <section>
             <h1 class="kanban">Kanban</h1>
@@ -584,64 +624,85 @@ if(featureFlags["new-cool-feature"] === true){
           </section>
 
           <section>
-            <h1>Refining tasks</h1>
-            <h2 class="fragment">Enter planning with many questions</h2>
+            <h1>Refining tasks ✔️</h1>
+            <h2 class="fragment">
+              Enter planning with <span class="error">many</span> questions
+            </h2>
             <h2 class="fragment">Land design and feature before</h2>
-            <h2 class="fragment">Several rounds of refinement</h2>
+            <h2 class="fragment">
+              <span class="efficiency">Several</span> rounds of refinement
+            </h2>
             <h3 class="fragment">
-              Sprint planning is not a task discussion meeting
+              Sprint planning is not a task
+              <span class="error">discussion</span> meeting
             </h3>
           </section>
           <section data-background="media/noesti.png"></section>
           <section data-auto-animate>
             <h1>No estimations</h1>
-            <h2 class="fragment">Guessing</h2>
+            <h2 class="fragment"><span class="error">Guessing</span> 🤔</h2>
             <h2 class="fragment">False sense of security</h2>
-            <h2 class="fragment">We don't make cars</h2>
+            <h2 class="fragment">We don't make cars 🚗</h2>
             <h2 class="fragment">Even story points not great</h2>
           </section>
           <section data-auto-animate>
             <h2 class="">Even story points not great</h2>
-            <h2 class="fragment">Should estimate complexity</h2>
-            <h2 class="fragment">Estimation of time</h2>
+            <h2 class="fragment">
+              Should estimate <span class="error">complexity</span>
+            </h2>
+            <h2 class="fragment">
+              Estimation of <span class="error">time</span>
+            </h2>
             <h2 class="fragment">5 points</h2>
             <h2 class="fragment">5 hours</h2>
             <h2 class="fragment">5 days</h2>
           </section>
           <section>
             <h1>What to do?</h1>
-            <h2 class="fragment">Most important task on top</h2>
+            <h2 class="fragment">Most important task on top ⬆️</h2>
             <h2 class="fragment">Similar size</h2>
-            <h2 class="fragment">Refine it well</h2>
+            <h2 class="fragment">
+              <span class="efficiency">Refine</span> it well
+            </h2>
             <h2 class="fragment">Land design</h2>
-            <h2 class="fragment">Focus on value</h2>
+            <h2 class="fragment">
+              Focus on <span class="efficiency">value</span>
+            </h2>
           </section>
           <section>
-            <h1>Task flow</h1>
+            <h1>Task <span class="efficiency">flow</span></h1>
             <ol>
               <li class="fragment">New task</li>
-              <li class="fragment">Rough refinement</li>
-              <li class="fragment">Iterate on design and refinement</li>
-              <li class="fragment">Include a developer</li>
+              <li class="fragment">
+                <span class="efficiency">Rough</span> refinement
+              </li>
+              <li class="fragment">
+                <span class="efficiency">Iterate</span> on design and refinement
+              </li>
+              <li class="fragment">
+                Include a <span class="efficiency">developer</span>
+              </li>
               <li class="fragment">All agree on task and design</li>
-              <li class="fragment">Ready for development</li>
+              <li class="fragment">
+                Ready for <span class="efficiency">development</span>
+              </li>
             </ol>
           </section>
           <section data-background="media/designer.jpg"></section>
           <section>
             <h1>All projects need a designer</h1>
-            <h2 class="fragment">Even internal projects</h2>
+            <h2 class="fragment">Even internal projects 🧑‍🎨</h2>
           </section>
           <section data-auto-animate>
             <h1>Standup</h1>
-            <h2 class="fragment">Broken</h2>
+            <h2 class="fragment error">Broken</h2>
             <h2 class="fragment">Discussion meeting</h2>
             <h2 class="fragment">No idea what you are talking about</h2>
             <h2 class="fragment">Have a blocker until next standup</h2>
-            <h2 class="fragment">Solution</h2>
+            <h2 class="fragment efficiency">Solution</h2>
           </section>
           <section data-auto-animate>
-            <h2 class="">Solution</h2>
+            <h2 class="efficiency">Solution</h2>
             <h2 class="fragment">Don't wait until standup</h2>
             <h2 class="fragment">Well refined tasks</h2>
             <h2 class="fragment">Keep it short</h2>
@@ -660,9 +721,8 @@ if(featureFlags["new-cool-feature"] === true){
           </section>
         </section>
         <section>
-          <!-- needed? -->
           <section>
-            <h1>Summary</h1>
+            <h1>The <span class="efficiency">End</span></h1>
             <h2 class="fragment">CI/CD DevOps</h2>
             <h2 class="fragment">AI-powered development</h2>
             <h2 class="fragment">Lowest possible turnaround time</h2>
